@@ -1,0 +1,5 @@
+[thuclv]
+aws_access_key_id=AKIA4BYWQASE4WDCXCUE
+aws_secret_access_key=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
+region = us-east-1
+output = json

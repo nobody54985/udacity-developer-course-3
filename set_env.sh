@@ -1,10 +1,10 @@
 # This file is used for convenience of local development.
 # DO NOT STORE YOUR CREDENTIALS INTO GIT
-export POSTGRES_USERNAME=postgres
-export POSTGRES_PASSWORD=thuctloc1998
-export POSTGRES_HOST=cdr.cgieivuo7qs1.us-east-1.rds.amazonaws.com
-export POSTGRES_DB=postgres
-export AWS_BUCKET=arn:aws:s3:::monolith-to-microservices-project
+export POSTGRES_USERNAME="postgres"
+export POSTGRES_PASSWORD="thuctloc1998"
+export POSTGRES_HOST=dbcdr3.cgieivuo7qs1.us-east-1.rds.amazonaws.com
+export POSTGRES_DB="postgres"
+export AWS_BUCKET=monolith-to-microservices-project
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=testing
