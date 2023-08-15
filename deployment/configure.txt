@@ -30,3 +30,6 @@ kubectl delete service publicreverseproxy
 
 aws eks update-kubeconfig --name MyEKSCluster --region us-east-1
 kubectl config view
+
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+kubectl autoscale deployment backend-user --cpu-percent=70 --min=3 --max=5
