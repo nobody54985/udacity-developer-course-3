@@ -19,7 +19,7 @@ script:
   - docker tag reverseproxy thuclvudacity/reverseproxy:v1
   - docker tag udagram-api-user thuclvudacity/udagram-api-user:v1
   - docker tag udagram-api-feed thuclvudacity/udagram-api-feed:v1
-  - docker tag udagram-frontend:local thuclvudacity/udagram-frontend:v6
+  - docker tag udagram-frontend:local thuclvudacity/udagram-frontend:v7
 
 # Tasks to perform after the process is successful. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.
 after_success:
@@ -27,4 +27,4 @@ after_success:
   - docker push thuclvudacity/reverseproxy:v1
   - docker push thuclvudacity/udagram-api-user:v1
   - docker push thuclvudacity/udagram-api-feed:v1
-  - docker push thuclvudacity/udagram-frontend:v6
+  - docker push thuclvudacity/udagram-frontend:v7
